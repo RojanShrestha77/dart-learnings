@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-name: first_program
-=======
 name: dart_application_1
->>>>>>> b4e1707 (Intial commit)
 description: A sample command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
@@ -10,7 +6,6 @@ version: 1.0.0
 environment:
   sdk: ^3.9.2
 
-# Add regular dependencies here.
 dependencies:
   path: ^1.9.0
 
