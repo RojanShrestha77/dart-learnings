@@ -6,19 +6,13 @@ void main() {
   first = 10;
   second = 20;
 
-  result = add(first, second);
-  result = add(first, second, 34);
-  result = add(first, second, 4, 44);
+  result = mul2(first: first, second: second, fifth: 42);
 
   print("mul of $first and $second: $result");
 }
 
-int add(int first, int second, [int third = 0, int fourth = 0]) {
-  return first * second * third * fourth;
-}
-
 //name parameter
-int mul({
+int mul2({
   required int first,
   required int second,
   int? third,
