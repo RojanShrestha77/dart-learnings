@@ -1,4 +1,7 @@
-import 'faculty.dart';
+//parttimefaculty.dart
+import 'package:dart_application_1/faculty.dart';
+
+// Child class
 
 class PartTimeFaculty extends Faculty {
   final int noOfHours;
